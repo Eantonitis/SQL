@@ -1,13 +1,13 @@
 Instering information into SQL table
 
-INSERT INTO celebs (id, name, age)
-VALUES (1, 'Justin Beiber', 22);
+INSERT INTO 'table' (id, name, age)
+VALUES (1, 'name1', 22);
 
-INSERT INTO celebs (id, name, age)
-VALUES (2, 'Beyonce Knowles', 33);
+INSERT INTO 'table' (id, name, age)
+VALUES (2, 'name2', 33);
 
-INSERT INTO celebs (id, name, age)
-VALUES (3, 'Jeremy Lin', 26);
+INSERT INTO 'table' (id, name, age)
+VALUES (3, 'name3', 26);
 
-INSERT INTO celebs (id, name, age)
-VALUES (4, 'Taylor Swift', 26);
+INSERT INTO 'table' (id, name, age)
+VALUES (4, 'name4', 26);

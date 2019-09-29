@@ -1,6 +1,6 @@
 Creating a table in SQL
 
-CREATE TABLE celebs(
+CREATE TABLE 'table'(
   id INTEGER,
   name TEXT,
   age INTEGER

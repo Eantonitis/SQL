@@ -1,0 +1,15 @@
+Alter table in SQL
+
+ ALTER TABLE 'table name'
+ ADD COLUMN 'new column' TEXT;
+ 
+Update table in SQL
+ 
+ UPDATE 'table name'
+ SET 'new column' = 'ABCDE'
+ WHERE name = 'name already assigned in table';
+ 
+Delete parts of the table where the new column is null
+
+DELETE FROM 'table name'
+ WHERE 'new column' IS NULL;

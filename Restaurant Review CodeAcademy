@@ -1,43 +1,43 @@
 Exercises from CodeAcademy SQL
 
-Find disctint neighborhoods
+/* Find disctint neighborhoods */
 SELECT DISTINCT neighborhood
 FROM nomnom;
 
-Find type of food
+/* Find type of food */
 SELECT *
 FROM nomnom
 WHERE cuisine = 'Chinese'; 
 
-Search by review
+/* Search by review */
 SELECT name, review
 FROM nomnom
 WHERE review >= 4; 
 
-And statement
+/* And statement */
 SELECT *
 FROM nomnom
 WHERE cuisine = 'Italian' 
-	and price = '$$$'; 
+  and price = '$$$'; 
  
-Searching for like name
+/* Searching for like name */
 SELECT name
 FROM nomnom
 WHERE name LIKE '%meatball
 
-Or for multiple neighborhoods  
+/* Or for multiple neighborhoods   */
 SELECT name, review, health
 FROM nomnom
 WHERE neighborhood = 'Midtown' 
 	 or neighborhood = 'Downtown'
    or neighborhood = 'Chinatown';
 
-Null search
+/* Null search */
 SELECT *
 FROM nomnom
 WHERE health IS NULL;
   
-Case and rename
+/* Case and rename */
 SELECT name, cuisine,
 	CASE
    WHEN review > 4.5 THEN 'Extraordinary'

@@ -1,0 +1,14 @@
+/* Having and Order By */
+SELECT user, SUM(score)
+FROM hacker_news
+GROUP BY 1
+HAVING SUM(score) > 200
+ORDER BY 2 DESC;
+
+
+/* Where, Group By, Order By */
+SELECT user, COUNT(*)
+FROM hacker_news
+WHERE url LIKE '%v=dQw4w9WgXcQ'
+GROUP BY 1
+ORDER BY 2 DESC;
